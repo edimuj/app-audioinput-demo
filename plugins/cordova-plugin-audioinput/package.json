@@ -1,0 +1,71 @@
+{
+  "_from": "cordova-plugin-audioinput",
+  "_id": "cordova-plugin-audioinput@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-CUCaI0mBQWHAJmF9/4n9cPk7D9y7+Iot1K2JA/7UgJouyao1i2bvLFIkIjF14x+vlfD/mhgvAs0Y9nsUcdWmqA==",
+  "_location": "/cordova-plugin-audioinput",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-audioinput",
+    "name": "cordova-plugin-audioinput",
+    "escapedName": "cordova-plugin-audioinput",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-audioinput/-/cordova-plugin-audioinput-1.0.1.tgz",
+  "_shasum": "1457d16b9f15db789b9ce6115b9109736d9836f0",
+  "_spec": "cordova-plugin-audioinput",
+  "_where": "H:\\dev\\proj\\app-audioinput-demo",
+  "author": {
+    "name": "Edin Mujkanovic"
+  },
+  "bugs": {
+    "url": "https://github.com/edimuj/cordova-plugin-audioinput/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-audioinput",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "This cordova plugin enables audio capture from the device microphone, by in (near) real-time forwarding raw audio data to the web layer of your application.",
+  "homepage": "https://github.com/edimuj/cordova-plugin-audioinput#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "ecosystem:phonegap",
+    "cordova-android",
+    "cordova-ios",
+    "cordova plugin",
+    "ios",
+    "android",
+    "cordova",
+    "web-audio-api",
+    "web audio api",
+    "web audio",
+    "waapi",
+    "microphone",
+    "mic",
+    "audio",
+    "input",
+    "source",
+    "AudioNode",
+    "phonegap"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-audioinput",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edimuj/cordova-plugin-audioinput.git"
+  },
+  "version": "1.0.1"
+}

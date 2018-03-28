@@ -1,0 +1,21 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-audioinput": {
+      "PACKAGE_NAME": "com.exelerus.apps.audioinputdemo"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.exelerus.apps.audioinputdemo"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.exelerus.apps.audioinputdemo"
+    }
+  },
+  "dependent_plugins": {}
+}

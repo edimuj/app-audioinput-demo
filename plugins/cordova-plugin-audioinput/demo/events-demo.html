@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Cordova Plugin AudioInput Demo</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="w3-center">
+    <div class="w3-row">
+        <div class="w3-container w3-quarter"></div>
+        <div class="w3-half">
+            <h4>Cordova AudioInput Plugin<br>
+                Events Demo</h4>
+            <div id="infoMessage"
+                 class="w3-container w3-section w3-pale-green w3-bottombar w3-border-green w3-border w3-small">
+                Not ready
+            </div>
+            <div id="infoTimer" class="w3-container w3-section w3-border-green w3-border w3-small"></div>
+            <div class="w3-card-4">
+                <form class="w3-container w3-margin w3-padding-medium">
+                    <label for="sampleRate">Samplerate (Hz)</label>
+                    <input id="sampleRate" class="w3-input" type="number" value="44100" size="5"/>
+                    <br>
+                    <label for="bufferSize">BufferSize (bytes)</label>
+                    <input id="bufferSize" class="w3-input" type="number" value="16384" size="5"/>
+                    <br>
+                    <div class="w3-row">
+                        <div class="w3-col m6 l6 s6">
+                            <label for="channelsMono">Mono</label>
+                            <input type="radio" id="channelsMono" name="channels" class="w3-input" value="1" checked>
+                            <label for="channelsStereo">Stereo</label>
+                            <input type="radio" id="channelsStereo" name="channels" class="w3-input" value="2">
+                        </div>
+                        <div class="w3-col m6 l6 s6">
+                            <label for="format8">8BIT</label>
+                            <input type="radio" id="format8" name="format" class="w3-input" value="PCM_8BIT">
+                            <label for="format16">16BIT</label>
+                            <input type="radio" id="format16" name="format" class="w3-input" value="PCM_16BIT" checked>
+                        </div>
+                    </div>
+                    <label for="audioSource">Audio Source</label>
+                    <select id="audioSource" class="w3-input">
+                        <option value="0">DEFAULT (Android/iOS)</option>
+                        <option value="5">CAMCORDER (Android/iOS)</option>
+                        <option value="9">UNPROCESSED (Android/iOS)</option>
+                        <option value="7">VOICE_COMMUNICATION (Android/iOS)</option>
+                        <option value="1">MIC (Android)</option>
+                        <option value="6">VOICE_RECOGNITION (Android)</option>
+                    </select>
+                    <input id="startCapture" type="button" class="w3-btn w3-green margin-5" value="Start">
+                    <input id="stopCapture" type="button" class="w3-btn w3-red margin-5" value="Stop" disabled>
+                </form>
+            </div>
+            <a class="w3-btn margin-5" href="index.html">Back</a>
+        </div>
+        <div class="w3-container w3-quarter"></div>
+    </div>
+</div>
+</body>
+
+<script type="text/javascript" src="utils.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="events-demo.js"></script>

@@ -1,0 +1,11 @@
+# IntelliJ project files
+.idea
+
+# Cordova stuff
+platforms
+build.json
+
+# Node
+node_modules
+package-lock.json
+.npmignore

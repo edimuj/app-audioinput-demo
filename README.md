@@ -1,5 +1,5 @@
 # app-audioinput-demo
-This is a Cordova demonstration app for the cordova-plugin-audioinput plugin.
+This is a demonstration app for the [cordova-plugin-audioinput](https://github.com/edimuj/cordova-plugin-audioinput) Cordova plugin.
 
 ## Supported Platforms
 * Android

@@ -17,7 +17,8 @@ This project is open-source, so contributions are welcome. Just ensure that your
 5. Create a new Pull Request.
 
 ## Credits
-* The app is created by Edin Mujkanovic.
+* Created by Edin Mujkanovic
+* App icon is created by @richardbmx
 
 [Contributors](https://github.com/edimuj/app-audioinput-demo/graphs/contributors)
 

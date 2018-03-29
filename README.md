@@ -1,3 +1,5 @@
+![Logotype](res/icon/android/icon-196x196.png)
+
 # app-audioinput-demo
 This is a demonstration app for the [cordova-plugin-audioinput](https://github.com/edimuj/cordova-plugin-audioinput) Cordova plugin.
 

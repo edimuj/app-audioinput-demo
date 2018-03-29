@@ -1,7 +1,7 @@
 {
     "name": "com.exelerus.apps.audioinputdemo",
     "displayName": "AudioInputDemo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A sample Apache Cordova application that demonstrates the cordova-plugin-audioinput plugin.",
     "main": "index.js",
     "scripts": {

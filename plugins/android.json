@@ -15,6 +15,9 @@
     },
     "cordova-plugin-file": {
       "PACKAGE_NAME": "com.exelerus.apps.audioinputdemo"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.exelerus.apps.audioinputdemo"
     }
   },
   "dependent_plugins": {}
